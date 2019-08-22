@@ -10,7 +10,6 @@ win10
 我的alias文件在E:\tool\Git\etc\profile.d, 可以自己寻找自己的git安装目录
 
 我在其中添加了以下内容, 屏蔽了原来的cmake, make的功能(后续可能会优化mymake.sh使其兼容mycmake.sh和普通的makefile)
-# add by magnolia
 alias cmake='mycmake.sh'
 alias make='mymake.sh'
 
